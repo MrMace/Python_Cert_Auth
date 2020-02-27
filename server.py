@@ -7,7 +7,7 @@ cert_auth_port = 9501
 servername = "Server_Name"
 public_key = +1
 private_key = -1
-confirmation_copy = 'key confirmed'
+confirmation_copy = 'key_confirmed'
 
 def my_server():
     cert_auth_connection = socket.socket( socket.AF_INET, socket.SOCK_STREAM)
