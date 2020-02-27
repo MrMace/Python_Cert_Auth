@@ -38,6 +38,4 @@ def main():
             session.send(response.encode())
 
         session.close()
-
-
 main()
